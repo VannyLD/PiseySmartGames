@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pisey Smart Shop</title>
+
+    <!-- Standard Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/Pisey.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/Pisey.png">
+    <link rel="icon" type="image/png"
+        href="https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/Pisey.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/Pisey.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://raw.githubusercontent.com/VannyLD/videos/refs/heads/main/favicon-16x16.png">
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/Pisey.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/Pisey.png"> <!-- Optional local fallback -->
+
+    <!-- Android/Chrome Icon -->
+    <link rel="icon" type="image/png" sizes="192x192"
+        href="https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/Pisey.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/Pisey.png"> <!-- Optional local fallback -->
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- iOS Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="DomNak Klen">
+
+    <!-- General Meta -->
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- Description for Search Engines -->
+    <meta name="description"
+        content="Perfume Stock management cordially invites you to attend and bless our special occasion.">
+    <meta name="robots" content="nofollow, noindex, noarchive, noimageindex">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Welcome to Perfume Stock - Domnak Klen Stock">
+    <meta property="og:description"
+        content="Perfume Stock management cordially invites you to attend and bless our special occasion.">
+    <meta property="og:url" content="Files/">
+    <meta property="og:site_name" content="Perfume Stock - Domnak Klen Stock">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/Pisey.png">
+    <meta property="og:image:secure_url"
+        content="https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/Pisey.png">
+    <meta property="og:image:alt" content="Perfume Stock Display Image">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Perfume Stock - Domnak Klen Stock">
+    <meta name="twitter:description"
+        content="Perfume Stock management cordially invites you to attend and bless our special occasion.">
+    <meta name="twitter:image"
+        content="https://raw.githubusercontent.com/vannysambath/Pisey/refs/heads/main/Pisey.png">
+
+
+    <!-- Use the Inter font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Load Tailwind CSS from a CDN for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom styles for the app card hover effect */
+        .app-card:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transform: scale(1.03);
+            transition: all 0.2s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen p-4 sm:p-8">
+
+    <!-- Main container for the app store UI -->
+    <div class="max-w-7xl mx-auto space-y-8">
+        <!-- Header Section with a search bar -->
+        <div class="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 pb-4 border-b border-gray-700">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-white">My App & Game Store</h1>
+            <div class="relative w-full sm:w-80">
+                <input type="text" id="search-bar" placeholder="Search apps..."
+                    class="w-full pl-10 pr-4 py-2 rounded-full bg-gray-800 border border-gray-700 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-300">
+                <!-- Search icon (using inline SVG) -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </div>
+        </div>
+
+        <!-- App Display Grid -->
+        <div id="app-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 sm:gap-8">
+            <!-- App cards will be dynamically inserted here by JavaScript -->
+        </div>
+
+        <!-- Loading/Error Message -->
+        <div id="status-message" class="text-center text-gray-400 p-8 rounded-xl bg-gray-800 hidden">
+            <p id="message-text" class="text-lg"></p>
+        </div>
+    </div>
+
+    <script>
+        const appGrid = document.getElementById('app-grid');
+        const searchBar = document.getElementById('search-bar');
+        const statusMessage = document.getElementById('status-message');
+        const messageText = document.getElementById('message-text');
+        let allApps = []; // Store all apps to enable searching
+
+        /**
+         * Fetches app data from the 'apps.json' file and renders it.
+         */
+        async function fetchAndRenderApps() {
+            messageText.textContent = "Loading apps...";
+            statusMessage.classList.remove('hidden');
+            
+            try {
+                // Fetch the JSON file generated by the Python script
+                const response = await fetch('apps.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                allApps = await response.json();
+                renderApps(allApps);
+                statusMessage.classList.add('hidden'); // Hide the loading message on success
+            } catch (error) {
+                console.error("Failed to load apps:", error);
+                messageText.textContent = "Could not find apps.json. Please run the Python script to generate the file.";
+                statusMessage.classList.remove('hidden');
+            }
+        }
+
+        /**
+         * Renders the app cards to the grid based on the provided array.
+         * @param {Array} appsToRender - The array of app objects to render.
+         */
+        function renderApps(appsToRender) {
+            appGrid.innerHTML = ''; // Clear existing content
+            
+            if (appsToRender.length === 0) {
+                messageText.textContent = "No apps found matching your search.";
+                statusMessage.classList.remove('hidden');
+                return;
+            } else {
+                statusMessage.classList.add('hidden');
+            }
+            
+            appsToRender.forEach(app => {
+                const appCard = document.createElement('div');
+                appCard.className = 'app-card flex flex-col items-center p-4 rounded-xl bg-gray-800 border border-gray-700 hover:bg-gray-700 shadow-lg cursor-pointer';
+
+                // App Icon (using the Base64 data directly from the JSON file)
+                const appIcon = document.createElement('img');
+                appIcon.className = 'w-24 h-24 rounded-2xl mb-3 shadow-lg object-contain';
+                appIcon.src = app.icon;
+                appIcon.alt = `${app.name} icon`;
+
+                // App Name
+                const appName = document.createElement('h3');
+                appName.className = 'text-center font-semibold text-sm sm:text-base text-gray-100 truncate w-full';
+                appName.textContent = app.name;
+
+                // Simple 'GET' button
+                const getButton = document.createElement('button');
+                getButton.className = 'mt-3 bg-blue-600 hover:bg-blue-700 text-white font-medium py-1 px-4 rounded-full text-xs transition-colors duration-300';
+                getButton.textContent = 'GET';
+                // Note: The 'GET' button alert is a placeholder. In a real app, this would
+                // trigger a download or redirect.
+                getButton.onclick = () => alert(`Downloading ${app.name}... Please Contact Pisey Smart Shop Telegram: +855 16 532 824 - @piseysmartshop`);
+
+                appCard.appendChild(appIcon);
+                appCard.appendChild(appName);
+                appCard.appendChild(getButton);
+                appGrid.appendChild(appCard);
+            });
+        }
+
+        /**
+         * Filters the app list based on search bar input.
+         */
+        searchBar.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const filteredApps = allApps.filter(app => app.name.toLowerCase().includes(searchTerm));
+            renderApps(filteredApps);
+        });
+
+        // Initial call to load the apps when the page loads
+        window.onload = fetchAndRenderApps;
+    </script>
+</body>
+</html>
